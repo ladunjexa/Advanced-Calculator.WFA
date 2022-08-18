@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Resulter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>yakov narrow, 15.75pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Resulter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="Resulter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>461, 58</value>
+  </data>
+  <data name="Resulter.Text" xml:space="preserve">
+    <value>0123456789</value>
+  </data>
+  <data name="Credits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 250</value>
+  </data>
+  <data name="Credits.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="Cosines.Location" type="System.Drawing.Point, System.Drawing">
+    <value>382, 131</value>
+  </data>
+  <data name="Cosines.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="Sines.Location" type="System.Drawing.Point, System.Drawing">
+    <value>382, 92</value>
+  </data>
+  <data name="Sines.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="Tangents.Location" type="System.Drawing.Point, System.Drawing">
+    <value>382, 170</value>
+  </data>
+  <data name="Tangents.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="ToBase.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 209</value>
+  </data>
+  <data name="ToBase.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="ToBase.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 42</value>
+  </data>
+  <data name="Modulo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 91</value>
+  </data>
+  <data name="Modulo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="Comma.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 208</value>
+  </data>
+  <data name="Comma.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="Pow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 208</value>
+  </data>
+  <data name="Pow.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="Round.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 131</value>
+  </data>
+  <data name="Round.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="Sqrt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 91</value>
+  </data>
+  <data name="Sqrt.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="Min.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 208</value>
+  </data>
+  <data name="Min.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="Max.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 169</value>
+  </data>
+  <data name="Max.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="Abs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 130</value>
+  </data>
+  <data name="Abs.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="Delete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 91</value>
+  </data>
+  <data name="Delete.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="Point.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 208</value>
+  </data>
+  <data name="Point.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="button0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 208</value>
+  </data>
+  <data name="button0.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="Divide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 169</value>
+  </data>
+  <data name="Divide.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="Divide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 33</value>
+  </data>
+  <data name="Multiplication.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 208</value>
+  </data>
+  <data name="Multiplication.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="Multiplication.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 33</value>
+  </data>
+  <data name="Clear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 91</value>
+  </data>
+  <data name="Clear.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="Clear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 33</value>
+  </data>
+  <data name="Calculate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 130</value>
+  </data>
+  <data name="Calculate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="Calculate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 111</value>
+  </data>
+  <data name="Minus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 130</value>
+  </data>
+  <data name="Minus.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="Minus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 33</value>
+  </data>
+  <data name="Plus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 91</value>
+  </data>
+  <data name="Plus.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="Plus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 33</value>
+  </data>
+  <data name="button9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 91</value>
+  </data>
+  <data name="button9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="button9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 33</value>
+  </data>
+  <data name="button8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 91</value>
+  </data>
+  <data name="button8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="button8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 33</value>
+  </data>
+  <data name="button7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 91</value>
+  </data>
+  <data name="button7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="button7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 33</value>
+  </data>
+  <data name="button6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 130</value>
+  </data>
+  <data name="button6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="button6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 33</value>
+  </data>
+  <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 130</value>
+  </data>
+  <data name="button5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="button5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 33</value>
+  </data>
+  <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 130</value>
+  </data>
+  <data name="button4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 33</value>
+  </data>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 169</value>
+  </data>
+  <data name="button3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 33</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 169</value>
+  </data>
+  <data name="button2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 33</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 169</value>
+  </data>
+  <data name="button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 33</value>
+  </data>
+  <data name="menuStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 3, 0, 3</value>
+  </data>
+  <data name="menuToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 18</value>
+  </data>
+  <data name="Random.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 169</value>
+  </data>
+  <data name="Random.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="EONumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>382, 258</value>
+  </data>
+  <data name="EONumber.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="PrimeNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 258</value>
+  </data>
+  <data name="PrimeNumber.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="Palindrome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>430, 92</value>
+  </data>
+  <data name="Palindrome.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="Palindrome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 198</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>486, 299</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+</root>
